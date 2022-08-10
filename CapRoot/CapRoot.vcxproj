@@ -20,9 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="exploit.c" />
+    <ClCompile Include="leak.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exploit.h" />
+    <ClInclude Include="intrinsics.h" />
+    <ClInclude Include="kernel_definitions.h" />
+    <ClInclude Include="leak.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

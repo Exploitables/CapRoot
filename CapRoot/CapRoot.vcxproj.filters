@@ -18,9 +18,21 @@
     <ClCompile Include="exploit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="leak.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="exploit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel_definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intrinsics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="leak.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
